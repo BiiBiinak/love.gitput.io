@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Lock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-hearts" id="floating-hearts"></div>
+    
+    <div class="container">
+        <div id="password-screen" class="screen">
+            <h1>🔒 Love Lock</h1>
+            <p>Enter the password to unlock the love</p>
+            <input type="password" id="password-input" placeholder="Enter password">
+            <button id="unlock-btn">Unlock</button>
+            <p id="error-message" class="hidden">Incorrect password. Please try again.</p>
+        </div>
+        
+        <div id="love-screen" class="screen hidden">
+            <h1>💖 Forever Love 💖</h1>
+            <div class="heart-container">
+                <div class="heart"></div>
+            </div>
+            <div class="message">
+                <p>You are the most amazing person in my life!</p>
+                <p>Every moment with you is precious.</p>
+                <p>I love you more than words can express.</p>
+            </div>
+            <button id="lock-btn">Lock Again</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
